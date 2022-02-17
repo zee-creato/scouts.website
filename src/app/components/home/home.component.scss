@@ -89,6 +89,28 @@ position: relative;
        -moz-background-size: cover;
        -o-background-size: cover;
        background-size: cover;
+       &::before {
+        background-image: url(/assets/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        will-change: transform;
+        z-index: -1;
+      }
+
+
+
+
+
+
+
+
 &__text{
     position: absolute;
     position: sticky;
