@@ -13,6 +13,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CubsComponent } from './components/cubs/cubs.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
+import { CopyrightComponent } from './components/copyright/copyright.component';
 const appRoutes: Routes =[
   {path:'' , component:HomeComponent},
   {path:'beavers' , component:BeaversComponent},
@@ -34,7 +35,8 @@ const appRoutes: Routes =[
     AboutComponent,
     CubsComponent,
     FooterComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,

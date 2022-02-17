@@ -1,16 +1,67 @@
 .scroll-to-top {
   position: fixed;
-  bottom: 15px;
+  bottom: -20px;
   right: 15px;
-  opacity: 0;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  width: 4vw;
+  height: 4vw;
+  border: 3px solid black;
+  text-align: center;
+  text-shadow: 0px 15px 0 black , 0 30px 0 black;
+  overflow: hidden;
+  border-radius: 50%;
+  font-size: 2vw;
   z-index: 5555555555555;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.scroll-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.342);
+  color: white;
+  text-shadow: 0px 15px 0 white , 0 30px 0 white;
 }
 
 .show-scrollTop {
   opacity: 1;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  bottom: 20px;
+}
+
+.show-scrollTop i {
+  -webkit-animation: arrow 1.6s infinite linear;
+          animation: arrow 1.6s infinite linear;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+}
+
+@keyframes arrow {
+  0% {
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
 }
 /*# sourceMappingURL=scroll-to-top.component.css.map */
