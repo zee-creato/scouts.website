@@ -255,8 +255,8 @@ height: 40%;
              display: flex;
              justify-content: center;
              align-items: center;
-            
-           
+          
+          
               &__button{
                   width: 40%;
                   height: 45%;
@@ -272,9 +272,14 @@ height: 40%;
                    display: flex;
                    justify-content: center;
                    align-items: center;
-                 &:hover{
-                     background-color:rgb(30, 30, 202);
-                 }
+                 background-color:white;
+                 &:hover:nth-child(1){
+              
+                    background-color: #006EE0;
+             
+            }
+                
+              
                  a{
                    
                   text-decoration: none;
@@ -332,7 +337,6 @@ height: 40%;
 }
 
 }
-
 
 
 

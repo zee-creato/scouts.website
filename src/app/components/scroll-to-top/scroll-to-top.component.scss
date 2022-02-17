@@ -1,0 +1,50 @@
+.scroll-to-top {
+    position: fixed;
+    // bottom: 20px;
+    // right: 15px;
+    // opacity: 0;
+    // transition: all .4s ease-in-out;
+    // z-index: 5555555555555;
+      bottom: -20px;
+    right: 15px;
+ width: 4vw;
+ height: 4vw;
+border: 3px solid black;
+text-align: center;
+text-shadow: 0px 15px 0 black , 0 30px 0 black;
+overflow: hidden;
+border-radius: 50%;
+ font-size: 2vw;
+  z-index: 5555555555555;
+ transition: 0.5s linear;
+ opacity: 0;
+ cursor: pointer;
+ &:hover{
+     background-color: rgba(0, 0, 0, 0.342);
+     color: white;
+     text-shadow: 0px 15px 0 white , 0 30px 0 white;
+ }
+   }
+   .show-scrollTop {
+    opacity: 1;
+    transition: all .4s ease-in-out;
+    bottom: 20px;
+i{
+    animation: arrow 1.6s infinite linear;
+}
+
+   }
+
+   @keyframes arrow{
+
+0%{
+transform: translateY(80px);
+}
+50%{
+transform: translateY(0px);
+}
+100%{
+transform: translateY(-80px);
+}
+
+   }
