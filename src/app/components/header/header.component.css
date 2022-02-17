@@ -1,0 +1,13 @@
+.active {
+  border-bottom: 1px solid red;
+}
+
+.sticky {
+  -webkit-transition: 0.7s linear;
+  transition: 0.7s linear;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0px;
+  z-index: 100 !important;
+}
+/*# sourceMappingURL=header.component.css.map */

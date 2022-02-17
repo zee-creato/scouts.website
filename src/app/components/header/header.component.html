@@ -1,0 +1,49 @@
+<nav class="navbar navbar-default sticky">
+<div class="container-fluid">
+<!-- <div class="navbar-header">
+
+<a href="#" class="navbar-brand">101st Church Crookham</a>
+
+</div> -->
+
+<div class="collapse navbar-collapse header">
+
+<ul class="nav navbar-nav">
+
+<li routerLinkActive="active"   [classList]="item === isSelected ? 'animate__animated animate__tada active':''"      (click)="add(item)" [routerLinkActiveOptions]="{exact:true}"  *ngFor="let item of header"><a routerLink="{{item.path}}">{{item.name}}</a></li>
+<!-- <li role="presentation"routerLinkActive="active"><a routerLink="/beavers">Beavers</a></li>
+<li role="presentation"routerLinkActive="active"><a routerLink="/cubs">Cubs</a></li>
+<li role="presentation"routerLinkActive="active"><a routerLink="/scouts">Scouts</a></li>
+<li role="presentation"routerLinkActive="active"><a routerLink="/squirrels">Squirrels</a></li>
+<li role="presentation"routerLinkActive="active"><a routerLink="/join">How to Join</a></li>
+<li role="presentation"routerLinkActive="active"><a routerLink="/about">About Us</a></li> -->
+
+
+</ul>
+<ul class="nav navbar-nav navbar-right">
+
+<li class="dropdown">
+
+<a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span>   </a>
+<ul class="dropdown-menu">
+
+<li><a href="#">Fundraising</a></li>
+<li><a href="#">Loging</a></li>
+
+
+
+</ul>
+
+
+
+
+</li>
+
+</ul>
+
+
+</div>
+
+</div>
+
+</nav>

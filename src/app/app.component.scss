@@ -1,0 +1,108 @@
+
+
+
+.pojemnik{
+width: 100%;
+height:370vh;
+// height: 120vh;
+// height: auto;
+
+background-color: #F4F4F4;
+&__header-logo{
+
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image{
+        width: 50%;
+        height: 100%;
+        &__img{
+            display: block;
+            width: 100%;
+            height: 100%;
+         
+            
+        }
+
+    }
+   
+    &__brand{
+        position: relative;
+        width: 50%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to right, #005696, #006a9f, #007b9c, #008b90, #00987f, #00a574, #2eb160, #56bc44, #7fcb38, #a8da2a, #d2e717, #fff200);
+        clip-path: polygon(0 43%, 18% 0%, 100% 0, 90% 50%, 100% 100%, 0% 101%, 0 50%);
+      
+        &__img{
+            display: block;
+            position: absolute;
+            object-fit: cover;
+            width: 25%;
+        }
+    }
+
+
+}
+
+&__main{
+    margin: 0 auto;
+    width: 95%;
+    width: 100%;
+    height: 100%;
+    background-color: #2eb160;
+    background-color: #F4F4F4;
+
+   
+    
+
+
+
+}
+}
+
+// .header-logo{
+//     width: 100%;
+//     height: 15vh;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+
+//     &__image{
+//         width: 50%;
+//         height: 100%;
+//         &__img{
+//             display: block;
+//             width: 100%;
+//             height: 100%;
+         
+            
+//         }
+
+//     }
+   
+//     &__brand{
+//         position: relative;
+//         width: 50%;
+//         height:100%;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         background-image: linear-gradient(to right, #005696, #006a9f, #007b9c, #008b90, #00987f, #00a574, #2eb160, #56bc44, #7fcb38, #a8da2a, #d2e717, #fff200);
+//         clip-path: polygon(0 43%, 18% 0%, 100% 0, 90% 50%, 100% 100%, 0% 101%, 0 50%);
+      
+//         &__img{
+//             display: block;
+//             position: absolute;
+//             object-fit: cover;
+//             width: 25%;
+//         }
+//     }
+  
+// }
+

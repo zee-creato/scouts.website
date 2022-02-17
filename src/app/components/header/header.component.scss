@@ -1,0 +1,10 @@
+.active{
+   border-bottom: 1px solid red;
+ 
+}
+.sticky{
+   transition: 0.7s linear;
+   position: sticky !important;
+   top: 0px;
+   z-index: 100 !important;
+}
